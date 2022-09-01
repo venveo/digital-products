@@ -596,7 +596,7 @@ class Product extends Purchasable
      */
     public function getIsShippable(): bool
     {
-        return false;
+        return true;
     }
 
     /**
